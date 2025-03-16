@@ -138,16 +138,16 @@ def main():
     st.write("enter your data to get a prediction for diabates")
 
 
-    age = st.number_input("age",min_value=-0.000000, step=0.001, max_value=0.06, value=0.038076, format="%.5f")
-    sex = st.number_input("sex",min_value=-0.000000, step=0.001, max_value=0.06, value=0.050680, format="%.5f")
-    bmi = st.number_input("bmi",min_value=-0.000000, step=0.001, max_value=0.07, value=0.061696, format="%.5f")
-    bp = st.number_input("bp",min_value=-0.000000, step=0.001, max_value=0.06, value=0.021872, format="%.5f")
-    s1 = st.number_input("s1",min_value=-0.000000, step=0.001, max_value=0.06, value=-0.044223, format="%.5f")
-    s2 = st.number_input("s2",min_value=-0.000000, step=0.001, max_value=0.06, value=-0.034821, format="%.5f")
-    s3 = st.number_input("s3",min_value=-0.000000, step=0.001, max_value=0.06, value=-0.043401, format="%.5f")
-    s4 = st.number_input("s4",min_value=-0.000000, step=0.001, max_value=0.06, value=-0.002592, format="%.5f")
-    s5 = st.number_input("s5",min_value=-0.000000, step=0.001, max_value=0.06, value=0.019908, format="%.5f")
-    s6 = st.number_input("s6",min_value=-0.000000, step=0.001, max_value=0.06, value=-0.017646, format="%.5f")
+    age = st.number_input("age",min_value=-0.05, step=0.001, max_value=0.06, value=0.038076, format="%.5f")
+    sex = st.number_input("sex",min_value=-0.05, step=0.001, max_value=0.06, value=0.050680, format="%.5f")
+    bmi = st.number_input("bmi",min_value=-0.05, step=0.001, max_value=0.07, value=0.061696, format="%.5f")
+    bp = st.number_input("bp",min_value=-0.05, step=0.001, max_value=0.06, value=0.021872, format="%.5f")
+    s1 = st.number_input("s1",min_value=-0.05, step=0.001, max_value=0.06, value=-0.044223, format="%.5f")
+    s2 = st.number_input("s2",min_value=-0.05, step=0.001, max_value=0.06, value=-0.034821, format="%.5f")
+    s3 = st.number_input("s3",min_value=-0.05, step=0.001, max_value=0.06, value=-0.043401, format="%.5f")
+    s4 = st.number_input("s4",min_value=-0.05, step=0.001, max_value=0.06, value=-0.002592, format="%.5f")
+    s5 = st.number_input("s5",min_value=-0.05, step=0.001, max_value=0.06, value=0.019908, format="%.5f")
+    s6 = st.number_input("s6",min_value=-0.05, step=0.001, max_value=0.06, value=-0.017646, format="%.5f")
 
     # on the click of a button , we need to predict the output..
     if st.button("predict-your_score"):
